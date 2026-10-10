@@ -40,7 +40,7 @@ export function useInboundNotifications(enabled: boolean) {
             /* noop */
           }
           if ('Notification' in window && Notification.permission === 'granted') {
-            new Notification('New WhatsApp message', { body });
+            new Notification('New message', { body });
           }
         },
       )

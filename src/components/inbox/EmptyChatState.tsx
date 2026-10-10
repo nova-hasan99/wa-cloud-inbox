@@ -7,7 +7,7 @@ export function EmptyChatState() {
         <MessageSquare size={48} className="text-wa-primary" />
       </div>
       <h2 className="mt-4 text-2xl font-light text-gray-700">
-        WhatsApp for Business
+        ChatDesk Inbox
       </h2>
       <p className="mt-2 max-w-sm text-sm text-gray-500">
         Select a conversation from the list to start messaging your customers.

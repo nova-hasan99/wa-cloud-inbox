@@ -33,8 +33,8 @@ export function Sidebar() {
           <MessageSquare size={20} className="text-white" />
         </div>
         <div>
-          <div className="text-sm font-semibold text-gray-900">WA Business</div>
-          <div className="text-[11px] text-gray-500">Management Platform</div>
+          <div className="text-sm font-semibold text-gray-900">ChatDesk</div>
+          <div className="text-[11px] text-gray-500">Business Inbox</div>
         </div>
       </div>
 

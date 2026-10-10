@@ -40,13 +40,13 @@ export function LoginPage() {
     <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-emerald-50 to-white px-4">
       <div className="w-full max-w-sm rounded-2xl bg-white p-8 shadow-panel">
         <div className="mb-6 flex flex-col items-center text-center">
-          <div className="flex h-12 w-12 items-center justify-center rounded-full bg-wa-primary">
+          <div className="flex h-12 w-12 items-center justify-center rounded-full bg-teal-700">
             <MessageSquare size={24} className="text-white" />
           </div>
           <h1 className="mt-3 text-xl font-semibold text-gray-900">
-            WhatsApp Business
+            ChatDesk
           </h1>
-          <p className="text-sm text-gray-500">Sign in to your admin account</p>
+          <p className="text-sm text-gray-500">Admin sign-in for this dashboard</p>
         </div>
 
         <form onSubmit={onSubmit} className="space-y-4">
@@ -74,6 +74,17 @@ export function LoginPage() {
           </Button>
         </form>
 
+        <p className="mt-6 border-t border-gray-100 pt-4 text-center text-xs leading-relaxed text-gray-400">
+          Self-hosted inbox for the WhatsApp Cloud API. Not affiliated with WhatsApp or Meta.{' '}
+          <a
+            href="https://github.com/nova-hasan99/wa-cloud-inbox"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-500 underline hover:text-gray-700"
+          >
+            View source on GitHub
+          </a>
+        </p>
       </div>
     </div>
   );
