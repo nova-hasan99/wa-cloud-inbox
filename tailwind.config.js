@@ -5,13 +5,13 @@ export default {
     extend: {
       colors: {
         wa: {
-          primary: '#25D366',
-          dark: '#075E54',
-          teal: '#128C7E',
+          primary: '#0F766E',
+          dark: '#134E4A',
+          teal: '#115E59',
           outbound: '#DCF8C6',
           panel: '#EDEDED',
           chat: '#E5DDD5',
-          unread: '#25D366',
+          unread: '#0F766E',
           read: '#34B7F1',
           danger: '#DC2626',
         },
