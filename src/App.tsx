@@ -11,6 +11,7 @@ import { TemplatesPage } from '@/pages/TemplatesPage';
 import { InboxPage } from '@/pages/InboxPage';
 import { SetupGuidePage } from '@/pages/SetupGuidePage';
 
+// this is the test and development version of the app, which is not used in production
 export default function App() {
   return (
     <ErrorBoundary>
@@ -67,4 +68,3 @@ export default function App() {
 }
 
 
-// this is the claude base project
