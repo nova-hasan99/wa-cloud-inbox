@@ -119,14 +119,3 @@ export function ConversationItem({ conv, active, onClick, onDelete, lastOutbound
   );
 }
 
-// Helper function to format phone numbers
-// function formatPhone(phone: string) {
-//   // Remove non-digit characters
-//   const cleaned = ('' + phone).replace(/\D/g, '');
-//   // Format as (XXX) XXX-XXXX
-//   const match = cleaned.match(/^(\d{1,3})(\d{3})(\d{4})$/);
-//   if (match) {
-//     return `(${match[1]}) ${match[2]}-${match[3]}`;
-//   }
-//   return phone; // Return original if it doesn't match expected format
-// }
